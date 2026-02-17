@@ -53,7 +53,14 @@
     }
     section.card h2{margin: 0 0 10px 0; font-size: 18px}
     .subtle{color: var(--muted); font-size: 13px; margin-top: -6px; margin-bottom: 10px}
-    .divider{height:1px; background: var(--line); margin: 12px 0}
+
+    /* === AMENDMENT #1: reduce vertical spacing overall, and especially around the citation link area === */
+    p{ margin: 0.55rem 0; }                 /* default <p> spacing was causing noticeable gaps */
+    .divider{height:1px; background: var(--line); margin: 10px 0;}  /* slightly tighter divider spacing */
+    #citation .label{ margin-bottom: 0.25rem; }
+    #citation ul{ margin-top: 8px; }        /* tighten list spacing after the link */
+    .mb-0{ margin-bottom: 0 !important; }   /* utility for targeted spacing fixes */
+
     ul{margin: 10px 0 0 18px}
     li{margin: 6px 0}
     .callout{
@@ -61,11 +68,22 @@
       background: rgba(106,166,255,.08); border-radius: 10px; margin-top: 10px;
     }
     .label{font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted)}
+
+    /* === AMENDMENT #2: Small caps helper for citations === */
+    .sc{
+      font-variant-caps: small-caps;
+      font-variant: small-caps; /* fallback */
+      letter-spacing: 0.03em;
+    }
+
     .citation{
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      /* switched to serif for cleaner small-caps rendering */
+      font-family: Georgia, "Times New Roman", Times, serif;
       font-size: 13px; background: rgba(255,255,255,.03); border: 1px solid var(--line);
       padding: 12px; border-radius: 12px; overflow-x:auto;
+      white-space: pre-wrap;
     }
+
     .slides{aspect-ratio: 16/9; width: 100%; border: 1px solid var(--line); border-radius: 14px; overflow:hidden; background: rgba(255,255,255,.02)}
     iframe{border:0; width:100%; height:100%}
     footer{max-width: var(--max); margin: 0 auto; padding: 18px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)}
@@ -110,13 +128,15 @@
       <p class="subtle">The full article can be found linked below, or by searching the listed Bluebook citation.</p>
 
       <div class="label">Citation</div>
-      <pre class="citation">Daniel J. Solove, “Artificial Intelligence and Privacy”, Florida Law Review 77([1]) ([2025]), 1-73, https://scholarship.law.ufl.edu/flr/vol77/iss1/1.</pre>
+      <!-- Small-caps applied via <span class="sc"> wrappers -->
+      <pre class="citation"><span class="sc">Daniel J. Solove</span>, <span class="sc">Artificial Intelligence and Privacy</span>, 77 <span class="sc">Fla. L. Rev.</span> 1 (2025), https://scholarship.law.ufl.edu/flr/vol77/iss1/1.</pre>
 
       <div class="divider"></div>
       <div class="label">Access & Metadata</div>
       <ul>
         <li><strong>Date published:</strong> [June 16, 2025]</li>
         <li><strong>Where accessed:</strong> Accessed through the University of Florida Law Scholarship Repository</li>
+        <!-- tightened spacing by removing default bottom margin on this <p>-like line (it's inside <li>, but safe) -->
         <li><strong>Permanent link:</strong> <a href="https://scholarship.law.ufl.edu/flr/vol77/iss1/1" target="_blank" rel="noopener">Link to Article</a></li>
       </ul>
     </section>
@@ -277,7 +297,7 @@
     <p class="subtle">Paste your link below. For Google Slides, use “Publish to the web” to get an embeddable URL.</p>
 
     <div class="label">Link</div>
-    <p><a href="[https://your-slides-link]" target="_blank" rel="noopener">Open slides in a new tab</a></p>
+    <p class="mb-0"><a href="[https://your-slides-link]" target="_blank" rel="noopener">Open slides in a new tab</a></p>
 
     <div class="divider"></div>
 
