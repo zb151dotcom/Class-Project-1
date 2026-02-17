@@ -54,12 +54,12 @@
     section.card h2{margin: 0 0 10px 0; font-size: 18px}
     .subtle{color: var(--muted); font-size: 13px; margin-top: -6px; margin-bottom: 10px}
 
-    /* === AMENDMENT #1: reduce vertical spacing overall, and especially around the citation link area === */
-    p{ margin: 0.55rem 0; }                 /* default <p> spacing was causing noticeable gaps */
-    .divider{height:1px; background: var(--line); margin: 10px 0;}  /* slightly tighter divider spacing */
+    /* === SPACING TIGHTENING (reduces the “gap” problem) === */
+    p{ margin: 0.55rem 0; }
+    .divider{height:1px; background: var(--line); margin: 10px 0;}
     #citation .label{ margin-bottom: 0.25rem; }
-    #citation ul{ margin-top: 8px; }        /* tighten list spacing after the link */
-    .mb-0{ margin-bottom: 0 !important; }   /* utility for targeted spacing fixes */
+    #citation ul{ margin-top: 8px; }
+    .mb-0{ margin-bottom: 0 !important; }
 
     ul{margin: 10px 0 0 18px}
     li{margin: 6px 0}
@@ -69,7 +69,7 @@
     }
     .label{font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted)}
 
-    /* === AMENDMENT #2: Small caps helper for citations === */
+    /* === SMALL CAPS SUPPORT === */
     .sc{
       font-variant-caps: small-caps;
       font-variant: small-caps; /* fallback */
@@ -77,14 +77,20 @@
     }
 
     .citation{
-      /* switched to serif for cleaner small-caps rendering */
       font-family: Georgia, "Times New Roman", Times, serif;
       font-size: 13px; background: rgba(255,255,255,.03); border: 1px solid var(--line);
       padding: 12px; border-radius: 12px; overflow-x:auto;
       white-space: pre-wrap;
     }
 
-    .slides{aspect-ratio: 16/9; width: 100%; border: 1px solid var(--line); border-radius: 14px; overflow:hidden; background: rgba(255,255,255,.02)}
+    .slides{
+      aspect-ratio: 16/9;
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow:hidden;
+      background: rgba(255,255,255,.02);
+    }
     iframe{border:0; width:100%; height:100%}
     footer{max-width: var(--max); margin: 0 auto; padding: 18px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line)}
   </style>
@@ -128,7 +134,6 @@
       <p class="subtle">The full article can be found linked below, or by searching the listed Bluebook citation.</p>
 
       <div class="label">Citation</div>
-      <!-- Small-caps applied via <span class="sc"> wrappers -->
       <pre class="citation"><span class="sc">Daniel J. Solove</span>, <span class="sc">Artificial Intelligence and Privacy</span>, 77 <span class="sc">Fla. L. Rev.</span> 1 (2025), https://scholarship.law.ufl.edu/flr/vol77/iss1/1.</pre>
 
       <div class="divider"></div>
@@ -136,7 +141,6 @@
       <ul>
         <li><strong>Date published:</strong> [June 16, 2025]</li>
         <li><strong>Where accessed:</strong> Accessed through the University of Florida Law Scholarship Repository</li>
-        <!-- tightened spacing by removing default bottom margin on this <p>-like line (it's inside <li>, but safe) -->
         <li><strong>Permanent link:</strong> <a href="https://scholarship.law.ufl.edu/flr/vol77/iss1/1" target="_blank" rel="noopener">Link to Article</a></li>
       </ul>
     </section>
@@ -293,18 +297,26 @@
   </section>
 
   <section class="card" id="slides" style="margin-top:16px;">
-    <h2>Slides (Embedded or Linked)</h2>
-    <p class="subtle">Paste your link below. For Google Slides, use “Publish to the web” to get an embeddable URL.</p>
+    <h2>Slides (Viewable + Click-through)</h2>
+    <p class="subtle">
+      These slides are embedded directly on the page. Users can click through them in the embedded viewer.
+      (If the embed ever shows a permissions error, adjust the Slides sharing settings to “Anyone with the link can view”.)
+    </p>
 
     <div class="label">Link</div>
-    <p class="mb-0"><a href="https://docs.google.com/presentation/d/1OtL-ayUBJR1ti6cB38oav8c3Iu_Q01sL9UvOgyCc710/edit?usp=sharing" target="_blank" rel="noopener">Open slides in a new tab</a></p>
+    <p class="mb-0">
+      <a href="https://docs.google.com/presentation/d/1OtL-ayUBJR1ti6cB38oav8c3Iu_Q01sL9UvOgyCc710/edit?usp=sharing" target="_blank" rel="noopener">
+        Open slides in a new tab
+      </a>
+    </p>
 
     <div class="divider"></div>
 
     <div class="label">Embedded slides</div>
     <div class="slides" role="region" aria-label="Embedded slides">
+      <!-- Embed URL derived from your edit link: /d/<ID>/embed?... -->
       <iframe
-        src="[https://docs.google.com/presentation/d/e/XXXXXXXX/embed?start=false&loop=false&delayms=3000]"
+        src="https://docs.google.com/presentation/d/1OtL-ayUBJR1ti6cB38oav8c3Iu_Q01sL9UvOgyCc710/embed?start=false&loop=false&delayms=3000"
         allowfullscreen="true"
         title="Slides Embed">
       </iframe>
@@ -313,7 +325,7 @@
 </main>
 
 <footer>
-  <strong>Note:</strong> Replace placeholders in brackets with your article’s citation, your selected authorities, and your slide link.
+  <strong>Note:</strong> Replace placeholders in brackets with any remaining missing info (if desired). Citation + slides are now set.
 </footer>
 </body>
 </html>
