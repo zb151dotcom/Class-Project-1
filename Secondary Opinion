@@ -1,3 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI & Privacy Law — Discussion Question</title>
+  <meta name="description" content="AI & Privacy Law resource — discussion question." />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">
+      <strong>AI and the Law, Spring 2026 — AI & Privacy Law Resource</strong>
+    </div>
+    <nav aria-label="Pages">
+      <a href="index.html">Home</a>
+      <a href="citation.html">Citation</a>
+      <a href="summary.html">Summary</a>
+      <a href="doctrine.html">Doctrinal Connections</a>
+      <a href="analysis.html">Critical Analysis</a>
+      <a href="question.html" aria-current="page">Discussion Question</a>
+      <a href="slides.html">Slides</a>
+    </nav>
+  </div>
+</header>
+
 <article class="gp1-article">
   <style>
     .gp1-article { max-width: 900px; line-height: 1.55; }
