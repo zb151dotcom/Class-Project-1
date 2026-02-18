@@ -52,7 +52,7 @@
       Topic: Fourth Amendment &amp; AI-Enabled Surveillance
     </p>
 
-    <h2>Structured Summary (500–700 words): Ohm (2012) as Counterpoint</h2>
+    <h2>Structured Summary: Ohm (2012) as Counterpoint</h2>
 
     <p class="cite">
       Paul Ohm, <em>The Fourth Amendment in a World Without Privacy</em>, 81
@@ -63,7 +63,7 @@
 
     <h2>Central thesis</h2>
     <p>
-      Ohm argues that as the private sector builds a pervasive “surveillance society,” Fourth Amendment doctrine that uses
+        Ohm argues that as the private sector builds a pervasive “surveillance society,” Fourth Amendment doctrine that uses
       “privacy” as its proxy will steadily contract. When people routinely disclose data to devices, platforms, and cloud
       intermediaries, courts applying expectation-of-privacy and “assumption of risk” logic will increasingly treat
       government access to those records as non-search activity. Preserving meaningful limits therefore requires more than
@@ -73,7 +73,7 @@
 
     <h2>1) Problem framing: privatized surveillance as a constitutional stress test</h2>
     <p>
-      The Introduction frames a two-step dynamic: (i) businesses capture and store granular behavioral data at scale, and
+        The Introduction frames a two-step dynamic: (i) businesses capture and store granular behavioral data at scale, and
       (ii) law enforcement later obtains those records more easily than it could have collected directly. The constitutional
       risk is structural: the state can become a downstream consumer of private surveillance, while doctrine built around
       “reasonable expectations” treats widespread disclosure as forfeiture of protection. On this view, the Fourth Amendment
@@ -83,7 +83,7 @@
 
     <h2>2) Part I — “The Death of Privacy”: why private surveillance becomes ubiquitous</h2>
     <p>
-      Ohm sets the predicate for doctrinal erosion by explaining why private surveillance becomes ambient and hard to avoid.
+        Ohm sets the predicate for doctrinal erosion by explaining why private surveillance becomes ambient and hard to avoid.
       He identifies four reinforcing drivers: “the one device” (smartphones as always-on sensors that travel everywhere),
       “the cloud” (cheap storage and processing that makes retention default), “the social” (platform incentives and network
       effects that normalize sharing), and “Big Data” (analytics that extract value from scale and correlation). Together,
@@ -93,7 +93,7 @@
 
     <h2>3) Part II — “The Diminished Fourth Amendment”: why privacy-based doctrine fails</h2>
     <p>
-      Part II argues that privacy-centered Fourth Amendment doctrine—especially under <em>Katz</em>—can become self-defeating
+        Part II argues that privacy-centered Fourth Amendment doctrine—especially under <em>Katz</em>—can become self-defeating
       when privacy is already collapsing. Ohm first critiques “self-help” assumptions: avoidance, secrecy, and individual
       choice cannot realistically counter pervasive tracking embedded in ordinary devices and services. He then describes
       the “no more expectations of privacy” trap: when courts treat widespread disclosure as “assumption of risk” or “knowing
@@ -105,7 +105,7 @@
 
     <h2>4) Part III — “The Fourth Amendment’s Third Act”: what comes after Katz</h2>
     <p>
-      Ohm’s constructive proposal begins with a reframing: <em>Katz</em> is becoming “the new <em>Olmstead</em>”—a once-dominant
+        Ohm’s constructive proposal begins with a reframing: <em>Katz</em> is becoming “the new <em>Olmstead</em>”—a once-dominant
       framework that becomes brittle as technology and social practice change. From there, he develops “equilibrium
       adjustment” as a method: courts should preserve the constitutional balance between police power and citizen liberty as
       technology shifts investigative capabilities, tightening or relaxing rules as the playing field changes. Because
@@ -116,7 +116,7 @@
 
     <h2>5) Conclusion: what survives when “privacy” no longer does</h2>
     <p>
-      Ohm concludes that if Fourth Amendment protection is tethered only to expectations of privacy, then pervasive private
+        Ohm concludes that if Fourth Amendment protection is tethered only to expectations of privacy, then pervasive private
       surveillance will predictably generate weaker constitutional limits on government access to personal data. The durable
       project, on his account, is not to “restore” lost privacy by doctrinal fiat, but to maintain meaningful constitutional
       constraints on state power in a society where private actors routinely collect what the government wants. (pp. 1353–1356).<sup id="fnref7"><a href="#fn7">7</a></sup>
