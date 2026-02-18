@@ -30,11 +30,10 @@
     <p class="site-title">
       <a href="./">AI and the Law, Spring 2026 — AI &amp; Privacy Law Resource</a>
     </p>
-
-    <nav aria-label="Site navigation">
-      <a href="./">Home</a>
+      <a href="index.html" aria-current="page">Home</a>
       <a href="citation.html">Citation</a>
-      <a href="summary.html">Summary</a>
+      <a href="summary.html">Solove Summary</a>
+      <a href="ohm.html">Ohm Summary</a>
       <a href="doctrine.html">Doctrinal Connections</a>
       <a href="analysis.html">Critical Analysis</a>
       <a href="question.html">Discussion Question</a>
