@@ -1,0 +1,82 @@
+<article class="gp1-article">
+  <style>
+    .gp1-article { max-width: 900px; line-height: 1.55; }
+    .gp1-article h1 { margin: 0 0 0.35rem 0; }
+    .gp1-article h2 { margin-top: 1.25rem; }
+    .gp1-article .cite { margin: 0.25rem 0 1rem 0; font-size: 0.98rem; }
+    .gp1-article .sc { font-variant: small-caps; letter-spacing: 0.02em; }
+    .gp1-article .page { white-space: nowrap; }
+  </style>
+
+  <h1>Ohm (2012) — Structured Summary (Counterpoint to Solove)</h1>
+
+  <p class="cite">
+    Paul Ohm, <em>The Fourth Amendment in a World Without Privacy</em>, 81
+    <span class="sc">MISS. L.J.</span> 1309 (2012),
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2073574">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2073574</a>
+    [<a href="https://perma.cc/WJG9-Q24Y">https://perma.cc/WJG9-Q24Y</a>].
+  </p>
+
+  <h2>Central thesis</h2>
+  <p>
+    Ohm argues that as the private sector builds a pervasive “surveillance society,” Fourth Amendment doctrine that uses
+    “privacy” as its proxy will steadily contract. When people routinely disclose data to devices, platforms, and cloud
+    intermediaries, courts applying expectation-of-privacy and “assumption of risk” logic will increasingly treat
+    government access to those records as non-search activity. Preserving meaningful limits therefore requires more than
+    “mild tweaks” to the third-party doctrine; it requires a “third act” that reorients Fourth Amendment analysis toward
+    constraining state power despite declining baseline privacy. (<span class="page">pp. 1309–1312</span>, esp.
+    <span class="page">p. 1311</span>)
+  </p>
+
+  <h2>1) Problem framing: privatized surveillance as a constitutional stress test</h2>
+  <p>
+    The Introduction frames a two-step dynamic: (i) businesses capture and store granular behavioral data at scale, and
+    (ii) law enforcement later obtains those records more easily than it could have collected directly. The
+    constitutional risk is structural: the state can become a downstream consumer of private surveillance, while
+    doctrine—built around “reasonable expectations”—treats widespread disclosure as forfeiture of protection.
+    (<span class="page">pp. 1310–1312</span>)
+  </p>
+
+  <h2>2) Part I — “The Death of Privacy”: why private surveillance becomes ubiquitous</h2>
+  <p>
+    Ohm sets the predicate for doctrinal change by identifying four reinforcing drivers: “the one device” (smartphones
+    as always-on sensors), “the cloud” (cheap storage/processing), “the social” (normalized sharing and network
+    effects), and “Big Data” (analytics that extract value from scale). (<span class="page">pp. 1314–1318</span>). These
+    forces culminate in the “surveillance society,” where collection and retention are routine and opting out is
+    increasingly unrealistic. (<span class="page">pp. 1318–1320</span>)
+  </p>
+
+  <h2>3) Part II — “The Diminished Fourth Amendment”: why privacy-based doctrine fails</h2>
+  <p>
+    Ohm argues that privacy-centered Fourth Amendment doctrine—especially through <em>Katz</em>—breaks down once
+    surveillance is ambient and intermediated. He first critiques “self-help” assumptions: avoidance, secrecy, or
+    individual choice cannot plausibly counter pervasive, networked tracking. (<span class="page">pp. 1321–1325</span>).
+    He then explains the “no more expectations of privacy” trap: when courts treat ubiquitous disclosure as “assumption
+    of risk” or “knowing exposure,” reduced social privacy becomes the doctrinal reason to reduce constitutional
+    protection. (<span class="page">pp. 1325–1332</span>). He ends by urging a pivot “from privacy to power”—treating the
+    Fourth Amendment as a structural check on state coercion and information dominance, not merely a mirror of prevailing
+    privacy norms. (<span class="page">pp. 1334–1336</span>)
+  </p>
+
+  <h2>4) Part III — “The Fourth Amendment’s Third Act”: what comes after Katz</h2>
+  <p>
+    Ohm’s constructive proposal has two main moves. First, “Katz is the new Olmstead”: <em>Katz</em>’s privacy-proxy
+    framework becomes brittle once privacy is systematically undermined by private infrastructure.
+    (<span class="page">p. 1336</span>). Second, he develops “equilibrium adjustment” as a method: courts should preserve
+    the constitutional balance between police power and citizen liberty as technology changes, tightening or relaxing
+    rules as the investigative playing field shifts. (<span class="page">pp. 1339–1347</span>). Because equilibrium talk
+    can be indeterminate, he argues for objective metrics—measurable changes in investigative difficulty or policing
+    capacity—to discipline when adjustment is warranted. (<span class="page">pp. 1341–1346</span>). He also gestures
+    beyond a warrant/probable-cause-only toolkit to additional constraints calibrated to the modern data ecosystem.
+    (<span class="page">pp. 1347–1352</span>)
+  </p>
+
+  <h2>5) Conclusion: what survives when “privacy” no longer does</h2>
+  <p>
+    Ohm concludes that a Fourth Amendment anchored solely to privacy expectations risks perverse results as baselines
+    shift: deep digital surveillance becomes easy to justify while other investigative choices look irrationally
+    constrained. The durable project, on his account, is not to “restore” lost privacy by doctrinal fiat, but to maintain
+    constitutional limits on state power in a society where private actors routinely collect what the government wants.
+    (<span class="page">pp. 1353–1356</span>)
+  </p>
+</article>
